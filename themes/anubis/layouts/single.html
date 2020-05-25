@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+    <article class="post">
+        <header>
+            <h1>{{ .Title }}</h1>
+        </header>
+        <div class="content">
+            tesxt
+            {{ .Content }}
+        </div>
+        {{ partial "articleInfoFull.html" . }}
+
+        {{ range .Site.Data.products }}
+            {{.name}} <br />
+        {{ end }}
+    </article>
+    {{ if .Site.DisqusShortname }}
+        {{ template "_internal/disqus.html" . }}
+    {{ end }}
+
+{{ end }}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <div class="index-content">
+        {{ .Content }}
+    </div>
+
+    <h1>{{ .Title }}</h1>
+    {{ range .Pages }}
+        <div class="post-short-list">
+            <header> 
+                <h2>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h2>
+            </header>
+            {{ partial "articleInfoFull.html" . }}
+        </div>
+    {{ end }}
+
+{{ end }}

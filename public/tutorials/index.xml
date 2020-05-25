@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Church Stack</title>
+    <link>https://churchstack.io/tutorials/</link>
+    <description>Recent content in Tutorials on Church Stack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 May 2020 17:13:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://churchstack.io/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Host ChurchCRM on Namecheap</title>
+      <link>https://churchstack.io/tutorials/how-to-host-churchcrm-on-namecheap/</link>
+      <pubDate>Mon, 25 May 2020 17:13:03 +0000</pubDate>
+      
+      <guid>https://churchstack.io/tutorials/how-to-host-churchcrm-on-namecheap/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

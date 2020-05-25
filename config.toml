@@ -1,0 +1,39 @@
+baseURL = "https://churchstack.io"
+languageCode = "en-us"
+title = "Church Stack"
+theme = "anubis"
+paginate = 3
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+  name = "Justin Pulsifer"
+
+[params]
+   author = "Justin Pulsifer"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "products"
+    name = "Products"
+    url = "/products/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tutorials"
+    name = "Tutorials"
+    url = "/tutorials/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "Podcast"
+    name = "Podcast"
+    url = "/podcast/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"

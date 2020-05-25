@@ -1,0 +1,51 @@
+{
+    "apostello": {
+        "name": "OpenLP",
+        "website": "https://github.com/monty5811/apostello/",
+        "category": "SMS communication",
+        "technology": "Python",
+        "cost": "Free"
+    },
+    "bibleapi": {
+        "name": "Bible API",
+        "website": "https://github.com/seven1m/bible_api",
+        "category": "Bible Reference",
+        "technology": "Ruby",
+        "cost": "Free"
+    },
+    "biblehelper": {
+        "name": "Bible Helper",
+        "website": "https://github.com/genu/bible-helper",
+        "category": "Bible Reference",
+        "technology": "Ruby",
+        "cost": "Free"
+    },
+    "bvcms": {
+        "name": "BVCMS",
+        "website": "https://github.com/bvcms/bvcms",
+        "category": "Church Management System",
+        "technology": "C# (.NET)",
+        "cost": "Free"
+    },
+    "cedar": {
+        "name": "BVCMS",
+        "website": "https://github.com/cedarsuite/cedarserver",
+        "category": "Church Management System",
+        "technology": "JavaScript (Meteor)",
+        "cost": "Free"
+    },
+    "openlp": {
+        "name": "OpenLP",
+        "website": "https://openlp.org",
+        "category": "Media Projection",
+        "technology": "Python",
+        "cost": "Free"
+    },
+    "churchcrm": {
+        "name": "ChurchCRM",
+        "website": "https://churchcrm.io",
+        "category": "Church Management System",
+        "technology": "PHP",
+        "cost": "Free"
+    }
+}
